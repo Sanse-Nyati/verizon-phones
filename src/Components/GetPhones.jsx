@@ -57,7 +57,7 @@ const GetProducts = () => {
           </div>
         </div>
         {FilterdProducts.map((product)=>(
-              <div className="col-md-3 justify-content-center mb-4">
+              <div className="col-sm-3 justify-content-center mb-4">
               <div className="card shadow card-margin">
                   <img src= {img_url + product.product_photo} alt="" className="product_image mt-4" />
                 <div className="card-body">
