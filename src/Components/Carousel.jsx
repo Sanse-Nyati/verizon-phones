@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const Carousel = () => {
     return ( 
         <section class="row">
-      <div class="col-md-12">
+      <div class="col-sm-12">
           <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
               <div class="carousel-inner">
                   <div class="carousel-item active">
