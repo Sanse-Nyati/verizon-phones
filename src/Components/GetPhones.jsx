@@ -1,4 +1,4 @@
-import axios from "axios";
+ifimport axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Carousel from "./Carousel";
@@ -52,12 +52,12 @@ const GetProducts = () => {
         <b className="text-warning"> {loading} </b>
         <b className="text-danger"> {error} </b>
         <div className="row justify-content-center my-4">
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <input type="text" className="form-control" placeholder="Search Products By Name" onChange={(e) =>handleSearch(e.target.value)} />
           </div>
         </div>
         {FilterdProducts.map((product)=>(
-              <div className="col-sm-3 justify-content-center mb-4">
+              <div className="col-md-3 justify-content-center mb-4">
               <div className="card shadow card-margin">
                   <img src= {img_url + product.product_photo} alt="" className="product_image mt-4" />
                 <div className="card-body">
