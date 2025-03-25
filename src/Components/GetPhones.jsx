@@ -48,11 +48,11 @@ const GetProducts = () => {
         
         {/* The Carousel Component */}
         <Carousel />
-        <h3 className="mt-5 text-primary">Available Phones</h3>
+        <h3 className="mt-5 text-primary">AVAILABLE PHONES</h3>
         <b className="text-warning"> {loading} </b>
         <b className="text-danger"> {error} </b>
         <div className="row justify-content-center my-4">
-          <div className="col-md-4">
+          <div className="col-sm-4">
             <input type="text" className="form-control" placeholder="Search Products By Name" onChange={(e) =>handleSearch(e.target.value)} />
           </div>
         </div>
