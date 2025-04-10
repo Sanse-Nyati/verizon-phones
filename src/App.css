@@ -61,3 +61,10 @@
 .navbar .nav-link:hover {
   color: #0f0f0f;
 }
+body {
+  background: url("images/background.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
