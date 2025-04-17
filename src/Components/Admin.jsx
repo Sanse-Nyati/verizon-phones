@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // 👈 import this
 
-const AdminLogin = ({ onLogin }) => {
+const AdminLogin = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate(); // 👈 hook to navigate programmatically
 
   const handleLogin = () => {
-    if (password === 'admin123') {
-      onLogin();
+    if (password === 'Andrew10951') {
+      navigate('/add-product'); // 👈 redirect to AddProducts page
     } else {
       setError('Incorrect password!');
     }
