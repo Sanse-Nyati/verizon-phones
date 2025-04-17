@@ -8,6 +8,7 @@ import GetPhones from './Components/GetPhones';
 import "bootstrap/dist/js/bootstrap.min.js"
 import AddProducts from './Components/AddProducts';
 import SingleProducts from './Components/SingleProduct';
+import AdminLogin from './Components/Admin';
 function App() {
   return (
    <Router>
@@ -17,6 +18,7 @@ function App() {
         <Route path='/signin' element={<SignIn/>} />
         <Route path='/' element={<GetPhones/> } />
         <Route path='/admin' element= {<Admin />} />
+        <Route path='/addproducts' element= {<AddProducts />} />
         <Route path='/singleproduct' element={<SingleProducts/>} />
       </Routes>
      </div>
