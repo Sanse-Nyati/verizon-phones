@@ -31,8 +31,8 @@ const Navbar = () => {
               <Link to="/" className="nav-link text-white">
                 <img src="images/images (1).jpeg" alt="" height="20px" /> Home
               </Link>
-              <Link to="/addproducts" className="nav-link text-white">
-                Add Products
+              <Link to="/admin" className="nav-link text-white">
+                ADMIN LOGIN
               </Link>
             </div>
 
