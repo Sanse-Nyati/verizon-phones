@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import "./Navbar.css"; // Make sure you create and import this CSS file
+
 
 const Navbar = () => {
   const user = JSON.parse(localStorage.getItem("user"));
@@ -28,11 +28,11 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="ivy">
             <div className="navbar-nav">
-              <Link to="/" className="nav-link text-white">
+              <Link to="/" className="nav-link text-secondary">
                 <img src="images/images (1).jpeg" alt="" height="20px" /> Home
               </Link>
-              <Link to="/admin" className="nav-link text-white">
-                ADMIN LOGIN
+              <Link to="/admin" className="nav-link text-secondary">
+                Admin Login
               </Link>
             </div>
 
