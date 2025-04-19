@@ -1,36 +1,9 @@
 import React from 'react';
-import './Carousel.css'; // We'll add custom styles here
+
 
 const Carousel = () => {
   return (
     <>
-      {/* 🧊 Glassmorphism Navbar */}
-      <nav className="glass-navbar navbar navbar-expand-lg fixed-top">
-        <div className="container-fluid">
-          <a className="navbar-brand text-white" href="#">GadgetStore</a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">Shop</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
       {/* Carousel Section */}
       <section className="row mt-5 pt-4">
