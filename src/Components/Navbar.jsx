@@ -39,9 +39,9 @@ const Navbar = () => {
             <div className="navbar-nav ms-auto">
               {user ? (
                 <>
-                  <b className="nav-link text-success">Hello {user.username}</b>
+                  <b className="nav-link text-primary">Hello! {user.username}</b>
                   <button
-                    className="nav-link btn btn-link text-white"
+                    className="nav-link btn btn-link text-danger "
                     onClick={handleLogout}
                   >
                     Logout
