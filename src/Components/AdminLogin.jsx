@@ -8,7 +8,7 @@ const AdminLogin = () => {
 
   const handleLogin = () => {
     if (password === 'Andrew10951') {
-      navigate('/add-product'); // 👈 redirect to AddProducts page
+      navigate('/addproducts'); // 👈 redirect to AddProducts page
     } else {
       setError('Incorrect password!');
     }
