@@ -45,7 +45,34 @@ const GetProducts = () => {
        <div className="row">
         {/* Navbar Component */}
         <Navbar />
+        <div class="text-container">
         
+        <span style="--color:#ffffff; --delay: 1s">W</span>
+        <span style="--color:#f80d0d; --delay: 1s">e</span>
+        <span style="--color:#99eb15; --delay: 1s">l</span>
+        <span style="--color:#106bf3; --delay: 1s">c</span>
+        <span style="--color:#6e16a8; --delay: 1s">o</span>
+        <span style="--color:#1bc29e; --delay: 1s">m</span>
+        <span style="--color:#0ceafa; --delay: 1s">e</span>
+        <span style="--color:#8af80d; --delay: 2s">T</span>
+        <span style="--color:#240306; --delay: 2s">o</span>
+        <span style="--color:#f509ae; --delay: 3s">V</span>
+        <span style="--color:#f37272; --delay: 3s">e</span>
+        <span style="--color:#1857b6; --delay:3s">r</span>
+        <span style="--color:#9df70c; --delay: 3s">i</span>
+        <span style="--color:#ffffff; --delay: 3s">z</span>
+        <span style="--color:#fc0808; --delay: 3s">o</span>
+        <span style="--color:#0c08fc; --delay: 3s">n</span>
+        <span style="--color:#08fce7; --delay: 4s">P</span>
+        <span style="--color:#f713136b; --delay: 4s">h</span>
+        <span style="--color:#1100f8; --delay: 4s">o</span>
+        <span style="--color:#3fff04; --delay: 4s">n</span>
+        <span style="--color:#083c5f; --delay: 4s">e</span>
+        <span style="--color:#7cf808; --delay: 4s">s</span>
+        <span style="--color:#045afa; --delay: 5s">.</span>
+        <span style="--color:#fa0000; --delay: 5s">.</span>
+        <span style="--color:#fd02c7; --delay: 5s">.</span>
+    </div>
         {/* The Carousel Component */}
         <Carousel />
         <h3 className="mt-5 text-primary">AVAILABLE PHONES</h3>
