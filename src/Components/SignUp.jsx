@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import PhoneInput, { isValidPhoneNumber } from 'react-phone-number-input'; // Import PhoneInput
+import PhoneInput, {  } from 'react-phone-number-input'; // Import PhoneInput
 
 import 'react-phone-number-input/style.css'; // Import styles for the phone input
 
@@ -13,7 +13,7 @@ const SignUp = () => {
     let [loading, setLoading] = useState("");
     let [success, setSuccess] = useState("");
     let [error, setError] = useState("");
-    let [country, setCountry] = useState("US"); // Default country set to US
+    let [country] = useState("US"); // Default country set to US
 
     const submit = async (e) => {
         e.preventDefault();
