@@ -37,26 +37,4 @@
   }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Baloo+Thambi);
-
-.text-container>span {
-    font-family: "Baloo Thambi", cursive;
-    font-size: 3.0rem;
-    animation: glow 3s ease-in-out infinite;
-    animation-delay: var(--delay);
-}
-
-@keyframes glow {
-    0%,
-    100%{
-        color: var(--color);
-        text-shadow: 0 0 10px #0652dd, 0 0 50px #0652dd,0 0 100px #0652dd; 
-    }
-
-    10%,
-    90%{
-        color:#4057db;
-        text-shadow: none;
-    }
-}
-
+ 
